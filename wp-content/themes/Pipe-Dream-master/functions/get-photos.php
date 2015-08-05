@@ -58,12 +58,12 @@ function get_priority($image) {
 
 function get_width($image) {
 	if( is_array( $image ) ) return $image['width'];
-	return $image->attachment_metadata['width'];
+	#return $image->attachment_metadata['width'];
 }
 
 function get_height($image) {
 	if( is_array( $image ) ) return $image['height'];
-	return $image->attachment_metadata['height'];
+	#return $image->attachment_metadata['height'];
 }
 
 function get_src($image, $size) {
